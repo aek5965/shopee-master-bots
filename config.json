@@ -1,0 +1,12 @@
+{
+  "redis": {
+    "host": "redis",
+    "port": 6379
+  },
+  "database": {
+    "url": "postgresql://shopee:shopee123@postgres:5432/shopee_bot"
+  },
+  "coin_farming": {
+    "schedules": ["09:00", "15:00", "21:00"]
+  }
+}
